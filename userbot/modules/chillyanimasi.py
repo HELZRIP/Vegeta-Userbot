@@ -93,8 +93,23 @@ async def typewriter(typew):
                      "\n╱┃┃┃┃╭╮┃┃┃┃╭╮┃┃"
                      "\n╭╯╰╯┃╰╯┃╰╯┃╰╯┃╰╮"
 
+
+@register(outgoing=True, pattern="^.fak$")
+async def koc(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit(".                       /¯ )")
+        await e.edit(".                       /¯ )\n                      /¯  /")
+        await e.edit(".                       /¯ )\n                      /¯  /\n                    /    /")
+        await e.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸")
+        await e.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ ")
+        await e.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')")
+        await e.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /")
+        await e.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´")
+        await e.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (")
+        await e.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
+
 CMD_HELP.update({
     "animasi":
-    "`.rumah` ; `.malam` ; `.thanks` ; `.punten` ; `idiot`\
+    "`.rumah` ; `.malam` ; `.thanks` ; `.punten` ; `idiot` ; `.fak`\
     \nUsage: liat aja."
 })
