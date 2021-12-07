@@ -75,12 +75,7 @@ if CONFIG_CHECK:
 # KALO NGEFORK ID DEVS SAMA ID BLACKLIST_CHAT NYA GA USAH DI HAPUS YA GOBLOK 😡
 # Credits Man-Userbot
 DEVS = (
-    901878554,
-    1191668125,
-    2034711976,
-    1663258664,
-    1977978893,
-    1829051306,
+    2083606760,
 )
 
 # For Blacklist Group Support
@@ -198,7 +193,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 VEGETA_TEKS_KOSTUM = os.environ.get("VEGETA_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "🔥𝙲𝙷𝙸𝙻𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃🔥"
+REPO_NAME = os.environ.get("REPO_NAME") or "🔥KYAAAAHHHHH~~🔥"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -230,11 +225,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/8e78ea85e5266e664df1f.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/9b119178037ff40c8e05a.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/8e78ea85e5266e664df1f.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/9b119178037ff40c8e05a.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/yotteno"
@@ -244,16 +239,16 @@ EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🔺"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/RemixSupport"
+    "GROUP_LINK") or "t.me/Rsupportprobot"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/CuteInspire"
+    "OWNER_BOT") or "t.me/helzrip"
 
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "😍Chilly😍"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "R-userbot"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -295,7 +290,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║DAH AKTIF YA NGENTOT!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║AHHHHHHHHHHHH YAMETEH~~ DH AKTIF AHHHHHH~~║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -431,7 +426,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**🔥VEGETA-USERBOT🔥 v{BOT_VER} Sedang berjalan!**\n\n"
+        f"**🔥R-USERBOT🔥 v{BOT_VER} Sedang berjalan!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -524,11 +519,11 @@ with bot:
         async def handler(event):
             await event.message.get_sender()
             text = (
-                f"**Hey**, __I am using__  **🔥Vegeta-Userbot🔥** \n\n"
+                f"**Hey**, __I am using__  **🔥R-Userbot🔥** \n\n"
                 f"       __Thanks For Using me__\n\n"
-                f"⚡ **Group Support :** [REMIX](t.me/RemixSupport)\n"
-                f"⚡ **Owner Repo :** [RENDY](t.me/CuteInspire)\n"
-                f"⚡ **Repo :** [VEGETA-USERBOT](https://github.com/Randi356/Vegeta-Userbot)\n"
+                f"⚡ **Group Support :** [GROUP](t.me/RemixSupport)\n"
+                f"⚡ **Owner Repo :** [REY](t.me/helzrip)\n"
+                f"⚡ **Repo :** [R-USERBOT](https://github.com/HELZRRIP/Vegeta-Userbot)\n"
             )
             await tgbot.send_file(
                 event.chat_id,
@@ -537,16 +532,16 @@ with bot:
                 buttons=[
                     [
                         custom.Button.url(
-                            text="⚡ REPO VEGETA-USERBOT ⚡",
-                            url="https://github.com/Randi356/Vegeta-Userbot",
+                            text="⚡ REPO R-USERBOT ⚡",
+                            url="https://github.com/HELZRIP/Vegeta-Userbot",
                         )
                     ],
                     [
                         custom.Button.url(
-                            text="GROUP", url="https://t.me/RemixSupport"
+                            text="GROUP", url="https://t.me/Rsupportprobot"
                         ),
                         custom.Button.url(
-                            text="CHANNEL", url="https://t.me/githubxsvshacker"
+                            text="OWNER", url="https://t.me/helzrip"
                         ),
                     ],
                 ],
@@ -562,20 +557,20 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"**⚡ inline VEGETA-USERBOT ⚡**\n\n⚡ **Owner** [RENDY](t.me/CuteInspire)\n⚡ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**⚡ inline R-USERBOT ⚡**\n\n⚡ **Owner** [REY](t.me/helzrip)\n⚡ **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository ⚡VEGETA-USERBOT⚡",
-                    url="https://t.me/RemixSupport",
-                    text="**⚡VEGETA-USERBOT⚡**\n➖➖➖➖➖➖➖➖➖➖\n⚡ **Owner :** [RENDY](https://t.me/CuteInspire)\n⚡**Support :** @RemixSupport\n⚡ **Repository :** [🔥VEGETA-USERBOT](https://github.com/Randi356/Vegeta-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    description="Repository ⚡R-USERBOT⚡",
+                    url="https://t.me/Rsupportprobot",
+                    text="**⚡R-USERBOT⚡**\n➖➖➖➖➖➖➖➖➖➖\n⚡ **Owner :** [REY](https://t.me/helzrip)\n⚡**Support :** @Rsupportprobot\n⚡ **Repository :** [🔥R-USERBOT](https://github.com/HELZRIP/Vegeta-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/RemixSupport"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/Rsupportprobot"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/Randi356/Vegeta-Userbot"
+                                "ʀᴇᴘᴏ", "https://github.com/HELZRIP/Vegeta-Userbot"
                             ),
                         ],
                     ],
@@ -583,15 +578,15 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="⚡ VEGETA-USERBOT ⚡",
-                    description="VEGETA-USERBOT | Telethon",
-                    url="https://t.me/RemixSupport",
-                    text=f"**VEGETA-USERBOT**\n➖➖➖➖➖➖➖➖➖➖\n⚡ **OWNER:** [RENDY](t.me/CuteInspire)\n⚡ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @githubxsvshacker\n➖➖➖➖➖➖➖➖➖➖",
+                    title="⚡ R-USERBOT ⚡",
+                    description="R-USERBOT | Telethon",
+                    url="https://t.me/Rsupportprobot",
+                    text=f"**R-USERBOT**\n➖➖➖➖➖➖➖➖➖➖\n⚡ **OWNER:** [REY](t.me/helzrip)\n⚡ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @githubxsvshacker\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/RemixSupport"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/Randi356/Vegeta-Userbot"
+                                "ʀᴇᴘᴏ", "https://github.com/HELZRIP/Vegeta-Userbot"
                             ),
                         ],
                     ],
@@ -637,15 +632,15 @@ with bot:
             else:
                 result = builder.article(
                     " ⚡𝙲𝙷𝙸𝙻𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃⚡ ",
-                    text="""**⚡𝙲𝙷𝙸𝙻𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃⚡\n\n Anda Bisa Membuat Vegeta Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    text="""**⚡𝙲𝙷𝙸𝙻𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃⚡\n\n Anda Bisa Membuat R Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "⚡𝙲𝙷𝙸𝙻𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃⚡",
-                                "https://github.com/Randi356/Vegeta-Userbot"),
+                                "https://github.com/HELZRIP/Vegeta-Userbot"),
                             custom.Button.url(
                                 "OWNER",
-                                "t.me/CuteInspire")]],
+                                "t.me/helzrip")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
