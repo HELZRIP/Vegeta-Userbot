@@ -97,8 +97,8 @@ def register(**args):
                 if not disable_errors:
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
-                    text = "**VEGETA-USERBOT ERROR**\n"
-                    link = "Silahkan chat: @FlashProSpeed"
+                    text = "**R-USERBOT ERROR**\n"
+                    link = "Silahkan chat: @helzrip"
                     text += "Untuk melaporkan kesalahan"
                     text += f"- tinggal teruskan pesan ini {link}.\n"
                     text += "Rama Siap Membantu Kamu\n"
