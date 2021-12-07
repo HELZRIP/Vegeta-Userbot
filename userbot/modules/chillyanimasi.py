@@ -42,8 +42,21 @@ async def typewriter(typew):
                      "││∩│ ▓ ║∩田│║▓ ▓ ▓∩ ║\n"
                      "๑۩๑๑۩๑๑ ۩๑๑۩๑▓๑۩๑๑۩๑")
 
+
+@register(outgoing=True, pattern='^.punten(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`\n┻┳|―-∩`"
+                     "`\n┳┻|     ヽ`"
+                     "`\n┻┳|    ● |`"
+                     "`\n┳┻|▼) _ノ`"
+                     "`\n┻┳|￣  )`"
+                     "`\n┳ﾐ(￣ ／`"
+                     "`\n┻┳T￣|`"
+                     "\n**Punten**")
+
 CMD_HELP.update({
     "animasi":
-    "`.rumah` ; `.malam` ; `.thanks`\
+    "`.rumah` ; `.malam` ; `.thanks` ; `.punten`\
     \nUsage: liat aja."
 })
