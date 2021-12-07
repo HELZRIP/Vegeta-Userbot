@@ -1,7 +1,7 @@
 {
-  "name": "VEGETA-USERBOT",
-  "description": "[VEGETA-USERBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/42e679c5b472a949f3223.jpg",
+  "name": "R-USERBOT",
+  "description": "[R-USERBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/5817fba5d808f55785afd.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -83,12 +83,12 @@
     },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
-      "value": "ChillyFucky",
+      "value": "Dream Garden (rey)",
       "required": true
     },
     "S_PACK_NAME": {
       "description": "Nama Sticker Pack Mu",
-      "value": "kang",
+      "value": "kang @helzrip",
       "required": false
     },
     "G_BAN_LOGGER_GROUP": {
